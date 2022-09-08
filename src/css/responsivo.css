@@ -1,0 +1,26 @@
+@media(max-width:1440px){
+    .corpo-lista .lista{
+        max-width: 900px;
+    }
+}
+@media(max-width:768px ){
+    .corpo-lista .lista {
+        margin-top: 45px;
+    }
+}
+@media(max-width:425px ){
+    .corpo-lista .lista{
+        margin-top:45px;
+        gap: 1px;
+    }
+    .corpo-lista .lista .item{
+        width: 335px;
+        height: 431px;
+    }
+}
+@media(max-width: 320px){
+    .corpo-lista .lista .item{
+        width: 301px;
+        height: 387px;
+    }
+}
